@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eight Template In W3School</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  </head>
+  <body>
+  <main>
+  <!-- header -->
+    <header class="header">
+     <div class="menu__nav">
+       <nav class="header__nav">
+         <ul class="header__nav-list">
+           <li class="header__nav-item">
+             <a href="#" class="header__nav-item-link">HOME</a>
+           </li>
+           <li class="header__nav-item">
+             <a href="#" class="header__nav-item-link">ABOUT</a>
+           </li>
+           <li class="header__nav-item">
+            <a href="#" class="header__nav-item-link">MENU</a>
+           </li>
+           <li class="header__nav-item">
+             <a href="#" class="header__nav-item-link">WHERE</a>
+           </li>
+         </ul>
+       </nav>
+     </div>
+    </header>
+    <!-- image top -->
+    <div class="image-top">
+      <img src="assets/image/coffeehouse.jpg" alt="img_top">
+      <div class="home__title">
+        <span>the</span>
+        <span>Cafe</span>
+      </div>
+      <div class="image-top__left top-text">
+        <p>Open from 6am to 5pm</p>
+      </div>
+      <div class="image-top__right top-text">
+        <p>15 Adr street, 5015</p>
+      </div>
+    </div>
+    <!-- about the cafe -->
+    <div class="about-thecafe">
+      <div class="row">
+        <h3 class="home__heading">
+          <span>ABOUT THE CAFE</span>
+        </h3>
+        <div class="about-thecafe__content">
+         <div class="about-thecafe__content-top">
+          <p >The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p >In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+         </div>
+        <div class="thecafe__content-quote">
+          <p>
+            "Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.   
+          </p>
+          <p>Chef, Coffeeist and Owner: Liam Brown</p>
+        </div>
+        <div class="thecafe__content-bottom">
+          <img src="assets/image/coffeeshop.jpg" alt="img_2">
+          <div class="thecafe__content-bottom-detail">
+            <p><span>Opening hours:</span> everyday from 6am to 5pm</p>
+            <p><span>Address:</span> 15 Adr street, 5015, NY</p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <!-- the menu -->
+    <div class="the-menu">
+      <div class="row">
+        <h3 class="home__heading">
+          <span>THE MENU</span>
+        </h3>
+        <div class="the-menu__content">
+          <!--  -->
+          <div class="the-menu__control">
+            <a href="#" id="eat_tag" class="menu_tab active ">
+              <div>Eat</div>
+            </a>
+            <a href="#" id="drink_tag" class="menu_tab">
+              <div>Drink</div>
+            </a>
+          </div>
+          <!-- Eat -->
+          <div id="the-menu__eat" class="menu-list" name_menu = 'Eat'>
+            <ul class="menu-eat__list">
+              <li class="menu-eat__item menu-item">
+                <h5>Bread Basket</h5>
+                <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+              </li>
+              <li class="menu-eat__item menu-item">
+                <h5>Honey Almond Granola with Fruits</h5>
+                <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+              </li>
+              <li class="menu-eat__item menu-item">
+                <h5>Belgian Waffle</h5>
+                <p>
+                  Vanilla flavored batter with malted flour 7.50
+                </p>
+              </li >
+              <li class="menu-eat__item menu-item">
+                <h5>Scrambled eggs</h5>
+                <p>
+                  Scrambled eggs, roasted red pepper and garlic, with green onions 7.50
+                </p>
+              </li>
+              <li class="menu-eat__item menu-item">
+                <h5>Blueberry Pancakes</h5>
+                <p>
+                  With syrup, butter and lots of berries 8.50
+                </p>
+              </li >
+            </ul>
+          </div>
+          <!-- drink -->
+          <div id="the-menu__drink" class="menu-list" name_menu = 'Drink' style="display: none;">
+            <ul class="menu-drink__list">
+              <li class="menu-drink__item menu-item">
+                <h5>Coffee</h5>
+                <p>
+                  Regular coffee 2.50
+                </p>
+              </li>
+              <li class="menu-drink__item menu-item">
+                <h5>Chocolato</h5>
+                <p>
+                  Chocolate espresso with milk 4.50
+                </p>
+              </li>
+              <li class="menu-drink__item menu-item">
+                <h5>Corretto</h5>
+                <p>
+                  Whiskey and coffee 5.00
+                </p>
+              </li>
+              <li class="menu-drink__item menu-item">
+                <h5>Iced tea</h5>
+                <p>
+                  Hot tea, except not hot 3.00
+                </p>
+              </li>
+              <li class="menu-drink__item menu-item">
+                <h5>Soda</h5>
+                <p>
+                  Coke, Sprite, Fanta, etc. 2.50
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <img src="assets/image/coffeehouse2.jpg" alt="coffeeshop" class="the-menu__image">
+      </div>
+    </div>
+    <!-- where to find us -->
+    <div class="contact">
+      <div class="row">
+        <h3 class="home__heading">
+          <span>WHERE TO FIND US</span>
+        </h3>
+        <p class="contact_desc">Find us at home address at some place</p>
+        <div class="contact__img">
+          <img src="assets/image/map.jpg" alt="map">
+        </div>
+        <div class="form-desc">
+          <p class="form-desc-1">
+            <span>FYI!</span>
+            We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.
+          </p>
+          <p class="form-desc-2">
+            <span>
+              Reserve
+            </span>
+            a table, ask for today's special or just send us a message:
+          </p>
+        </div>
+        <!-- form -->
+        <form action="" class="contact-form">
+          <input type="text" placeholder="Name">
+          <input type="text" placeholder="How many people">
+          <input type="datetime-local" value="2018-06-12T19:30">
+          <textarea placeholder="Message \ Special requirements"></textarea>
+          <button class="btn btn-contract-form">SEND MESSAGE</button>
+      </form>
+      </div>
+    </div>
+  <main>
+    <footer class="footer">
+      <p class="copy-right">&copy; Made with love</p>
+    </footer>
+  <script>
+    // tab menu
+    const menu_tab = document.querySelectorAll(".menu_tab");
+    const menu_list = document.querySelectorAll(".menu-list")
+    menu_tab.forEach(function(btn){
+      btn.addEventListener("click",function(e){
+      // Prevent Defaul function of anchor  
+      e.preventDefault()
+      // when click display none every menu_list
+     for(let item of menu_list){
+       item.style.display = 'none';
+     }
+      // when click remove every class active of menu_tab  
+     for(let item of menu_tab){
+       item.classList.remove("active");
+      }
+      // if nametab = name of attribite
+      // => this menu_list will be show and break for loop 
+      var nametab= e.target.innerText;
+      for(let item of menu_list){
+        var name = item.getAttribute("name_menu");
+        console.log(nametab,name);
+        if(name === nametab){
+          item.style.display='block';
+          break;
+        }else{
+          item.style.display = 'none';
+        }
+      }
+      // the button is clicking will be add class active
+     e.currentTarget.classList.add("active");
+     });
+   });
+  </script>
+  </body>
+</html>
