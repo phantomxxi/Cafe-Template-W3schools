@@ -1,0 +1,15 @@
+@media only screen and (max-width: 768px) {
+  .home__title {
+    font-size: 6rem;
+  }
+  .home__title span:first-child {
+    margin-bottom: 2rem;
+  }
+  .image-top__left {
+    grid-column: 1 / 4;
+    margin-bottom: 3rem;
+  }
+  .image-top__right {
+    grid-column: 1 / 4;
+  }
+}
